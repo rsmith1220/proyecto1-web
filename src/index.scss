@@ -1,12 +1,13 @@
-
-
 .todo{
     background-color: #22A4F3;
-    margin: 0px 250px;
+    margin: 0px 260px;
 }
 header{
 
     margin: 5px;
+}
+.casita{
+    margin: 0px;
 }
 .botoncito{
     background-color: #22A4F3;
@@ -27,6 +28,48 @@ header{
     cursor: pointer;
 }
 .d-inline.mx-2{
-    background-color: #2291f3;
     float: right;
+}
+.dropdown-toggle.btn.btn-primary{
+    font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    margin-right: 100px;
+}
+img{
+    margin-top: 10px;
+    border-radius: 3px;
+}
+
+.members{
+    background-image: linear-gradient(#22A4F3, #2268f3);
+    float: right;
+    color: white;
+    border: none;
+    font-size: 15px;
+    width: 220px;
+    height: 50px;
+    font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-top: -80px;
+    position: relative;
+    border-radius: 8px;
+}
+
+.members:hover{
+    background-image: linear-gradient(#2268f3, #22A4F3);
+    float: right;
+    color: white;
+    border: none;
+    font-size: 15px;
+    width: 220px;
+    height: 50px;
+    font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 80px;
+    margin-top: -80px;
+    position: relative;
+    border-radius: 8px;
 }

@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss'
 import casa from '../src/House.svg'
+import logo from '../src/memberlogo.png'
 
 
 import Dropdown from 'react-bootstrap/Dropdown'
@@ -13,7 +14,7 @@ function App(){
   return(
     <div className='todo'>
       <header>
-      <img src={casa} alt="React Logo" height='35' width='35' />
+      <img  className = 'casita' src={casa} alt="House" height='35' width='35' />
       
         <button className='botoncito'>Membership</button>
         <button className='botoncito'>What's new</button>
@@ -24,27 +25,21 @@ function App(){
         <button className='botoncito'>Help</button>
 
         <Dropdown className="d-inline mx-2" autoClose="inside">
-    <Dropdown.Toggle id="dropdown-autoclose-inside">
-      Clickable Outside
-    </Dropdown.Toggle>
+          <Dropdown.Toggle id="dropdown-autoclose-inside">
+            Language select
+          </Dropdown.Toggle>
 
-    <Dropdown.Menu>
-      <Dropdown.Item href="#">ENGLISH</Dropdown.Item>
-      <Dropdown.Item href="#">ESPAÑOL</Dropdown.Item>
-      <Dropdown.Item href="#">FRANÇAIS</Dropdown.Item>
-    </Dropdown.Menu>
-  </Dropdown>
-
-
-
-
-
-
-
-
+          <Dropdown.Menu>
+            <Dropdown.Item href="#">ENGLISH</Dropdown.Item>
+            <Dropdown.Item href="#">ESPAÑOL</Dropdown.Item>
+            <Dropdown.Item href="#">FRANÇAIS</Dropdown.Item>
+          </Dropdown.Menu>
+        </Dropdown>
       </header>
-
-
+      <img src='https://play.clubpenguin.picpps.com/assets/December-CPI-Announcement-Billboard.jpg'></img>
+      <button className='members'><img src={logo}></img>About Membership</button>
+<body>
+</body>
 
 
 
