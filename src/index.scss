@@ -1,6 +1,28 @@
-.todo{
+.App{
     background-color: #22A4F3;
+    // margin-left: 20px;
 }
 header{
-    line-height: 1vw;
+    margin: 5px;
+}
+.botoncito{
+    background-color: #22A4F3;
+    border: #22A4F3;
+    color: white;
+    font-size: 15px;
+    font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.botoncito:hover{
+    background-color: #22A4F3;
+    color: goldenrod;
+    border-bottom: goldenrod;
+    font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+}
+img{
+    align-self: center;
 }
