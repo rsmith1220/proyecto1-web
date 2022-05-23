@@ -2,10 +2,10 @@
 
 .todo{
     background-color: #22A4F3;
-    // margin-left: 20px;
+    margin: 0px 250px;
 }
 header{
-    
+
     margin: 5px;
 }
 .botoncito{
@@ -26,6 +26,7 @@ header{
     font-weight: 600;
     cursor: pointer;
 }
-.dropdown{
-    background-attachment: #2291f3;
+.d-inline.mx-2{
+    background-color: #2291f3;
+    float: right;
 }

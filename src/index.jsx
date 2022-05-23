@@ -29,9 +29,9 @@ function App(){
     </Dropdown.Toggle>
 
     <Dropdown.Menu>
-      <Dropdown.Item href="#">Menu Item</Dropdown.Item>
-      <Dropdown.Item href="#">Menu Item</Dropdown.Item>
-      <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+      <Dropdown.Item href="#">ENGLISH</Dropdown.Item>
+      <Dropdown.Item href="#">ESPAÑOL</Dropdown.Item>
+      <Dropdown.Item href="#">FRANÇAIS</Dropdown.Item>
     </Dropdown.Menu>
   </Dropdown>
 
