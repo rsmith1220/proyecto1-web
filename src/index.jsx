@@ -41,9 +41,12 @@ function App(){
       <button className='members'><img className = 'logo' src={logo} alt='member logo'/>  About Membership</button>
       
       <body className='ombligo'>
+       
         <img className='sin' src='https://play.clubpenguin.picpps.com/sites/default/themes/snowball/img/penguin-stencil.png'></img>
         <button className='log'>Create a penguin</button>
+        
         <img className='official' src='https://play.clubpenguin.picpps.com/assets/sites/default/themes/snowball/img/club-penguin-logo.png'></img>
+        
         <button className='log'>Log in</button>
         <img className='con' src="https://play.clubpenguin.picpps.com/sites/default/themes/snowball/img/penguin-tourguide.png" />
       
