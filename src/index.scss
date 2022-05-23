@@ -1,8 +1,11 @@
-.App{
+
+
+.todo{
     background-color: #22A4F3;
     // margin-left: 20px;
 }
 header{
+    
     margin: 5px;
 }
 .botoncito{
@@ -18,11 +21,11 @@ header{
 .botoncito:hover{
     background-color: #22A4F3;
     color: goldenrod;
-    border-bottom: goldenrod;
+    text-decoration: underline;
     font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
     font-weight: 600;
     cursor: pointer;
 }
-img{
-    align-self: center;
+.dropdown{
+    background-attachment: #2291f3;
 }

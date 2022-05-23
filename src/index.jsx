@@ -4,6 +4,11 @@ import './index.scss'
 import casa from '../src/House.svg'
 
 
+import Dropdown from 'react-bootstrap/Dropdown'
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
 function App(){
   return(
     <div className='todo'>
@@ -17,6 +22,26 @@ function App(){
         <button className='botoncito'>Fun stuff</button>
         <button className='botoncito'>Apps</button>
         <button className='botoncito'>Help</button>
+
+        <Dropdown className="d-inline mx-2" autoClose="inside">
+    <Dropdown.Toggle id="dropdown-autoclose-inside">
+      Clickable Outside
+    </Dropdown.Toggle>
+
+    <Dropdown.Menu>
+      <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+      <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+      <Dropdown.Item href="#">Menu Item</Dropdown.Item>
+    </Dropdown.Menu>
+  </Dropdown>
+
+
+
+
+
+
+
+
       </header>
 
 
