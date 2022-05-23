@@ -36,12 +36,28 @@ function App(){
           </Dropdown.Menu>
         </Dropdown>
       </header>
-      <img src='https://play.clubpenguin.picpps.com/assets/December-CPI-Announcement-Billboard.jpg'></img>
-      <button className='members'><img src={logo}></img>About Membership</button>
-<body>
-</body>
 
+      <img className='Banner' src='https://play.clubpenguin.picpps.com/assets/December-CPI-Announcement-Billboard.jpg'></img>
+      <button className='members'><img className = 'logo' src={logo} alt='member logo'/>  About Membership</button>
+      
+      <body className='ombligo'>
+        <img className='sin' src='https://play.clubpenguin.picpps.com/sites/default/themes/snowball/img/penguin-stencil.png'></img>
+        <button className='log'>Create a penguin</button>
+        <img className='official' src='https://play.clubpenguin.picpps.com/assets/sites/default/themes/snowball/img/club-penguin-logo.png'></img>
+        <button className='log'>Log in</button>
+        <img className='con' src="https://play.clubpenguin.picpps.com/sites/default/themes/snowball/img/penguin-tourguide.png" />
+      
+      </body>
 
+      <footer className='importante'>
+        <p>© Disney. Club Penguin™</p>
+        <p>Terms of use</p>
+        <p>Privacy policy</p>
+        <p>Children's Online Privacy Policy</p> 
+        <p>Your California Privacy Rights</p>
+        <p>support@clubpenguin.com</p>
+
+      </footer>
 
 
 

@@ -35,7 +35,7 @@ header{
     font-weight: 600;
     margin-right: 100px;
 }
-img{
+.Banner{
     margin-top: 10px;
     border-radius: 3px;
 }
@@ -55,6 +55,7 @@ img{
     margin-top: -80px;
     position: relative;
     border-radius: 8px;
+    padding: 10px;
 }
 
 .members:hover{
@@ -72,4 +73,68 @@ img{
     margin-top: -80px;
     position: relative;
     border-radius: 8px;
+    padding: 10px;
+}
+
+.logo{
+    height: 30px;
+    width: 40px;
+    margin-right:5px;
+}
+.ombligo{
+    margin: 15px 3px;
+    background-color: #258ef7;
+    max-width: 977px;
+    min-height: 110px;
+    max-height: 110px;
+    border-radius: 3px;
+}   
+
+.log{
+    background-image: linear-gradient(#22A4F3, #2268f3);
+    color: white;
+    border: none;
+    font-size: 15px;
+    width: 220px;
+    height: 50px;
+    font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 30px;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+.log:hover{
+    background-image: linear-gradient(#2268f3, #22A4F3);
+    color: white;
+    border: none;
+    font-size: 15px;
+    width: 220px;
+    height: 50px;
+    font-family: 'proxima_nova_bold',Helvetica,Arial,sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    margin: 10px 30px;
+    border-radius: 8px;
+    padding: 10px;
+}
+.oficial{
+    align-content: center;
+}
+.importante{
+    text-align: center;
+    color: goldenrod;
+    cursor: pointer;
+}
+
+.con{
+    position: relative;
+    margin-top: -40px;
+    margin-left: -20px;
+}
+
+.sin{
+    position: relative;
+    margin-top: -40px;
 }
