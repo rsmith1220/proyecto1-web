@@ -5,6 +5,8 @@
 
 Club penguin main webpage created using Webpack to compile
 Used Babel, bootstrap, and ESLint
+
+To check out reference, see the screenshot provided
 ___
 
 ### Set up project Webpack
