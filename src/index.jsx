@@ -44,11 +44,11 @@ function App() {
       <body className="ombligo">
 
         <img className="sin" src="https://play.clubpenguin.picpps.com/sites/default/themes/snowball/img/penguin-stencil.png" alt="crear penguin" />
-        <button className="log" onClick={otherPage}>Create a penguin</button>
+        <button className="log">Create a penguin</button>
 
         <img className="official" src="https://play.clubpenguin.picpps.com/assets/sites/default/themes/snowball/img/club-penguin-logo.png" alt="logo CP" />
 
-        <button className="log" onClick={otherPage}>Log in</button>
+        <button className="log">Log in</button>
         <img className="con" src="https://play.clubpenguin.picpps.com/sites/default/themes/snowball/img/penguin-tourguide.png" alt="iniciar sesion" />
 
       </body>
