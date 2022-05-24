@@ -1,7 +1,7 @@
 # proyecto1-web
 
 
-##Club Penguin main page
+## Club Penguin main page
 ___
 
 Set up proyect Webpack
