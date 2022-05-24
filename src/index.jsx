@@ -53,13 +53,13 @@ function App(){
       </body>
 
       <footer className='importante'>
-        <p>© Disney. Club Penguin™</p>
-        <p>Terms of use</p>
-        <p>Privacy policy</p>
-        <p>Children's Online Privacy Policy</p> 
-        <p>Your California Privacy Rights</p>
-        <p>support@clubpenguin.com</p>
-
+        <p className='copyR'>© Disney. Club Penguin™</p>
+        <button className='abajo'>Terms of use</button>
+        <button className='abajo'>Privacy policy</button>
+        <button className='abajo'>Children's Online Privacy Policy</button>
+        <button className='abajo'>Your California Privacy Rights</button>
+        <button className='abajo'>support@clubpenguin.com</button>
+        <p className='legal'>The service provider for this site is Disney Canada Inc., located at 500-1628 Dickson Avenue, Kelowna, British Columbia, Canada V1Y 9X1. Company <br></br>Registration #1879215 VAT#EU826012025</p>
       </footer>
 
 
